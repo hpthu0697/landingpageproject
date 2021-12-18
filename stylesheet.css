@@ -24,8 +24,9 @@
 
 .subheader {
     display: flex;
+    justify-content: space-between;
     gap: 15px;
-    margin-bottom: 100px;
+    margin-bottom: 10%;
 }
 
 .leftbox, .image {
@@ -35,7 +36,6 @@
 .image {
     object-fit: cover;
     max-height: 210px;
-    
 }
 
 .button1 {
@@ -156,7 +156,3 @@ a {
     color: inherit
 }
 
-.container1, footer {
-    display: flex;
-    justify-content: space-between;
-}
